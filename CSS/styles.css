@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: booksman;
+}
+
+body{
+    display: flex;
+    height: 99vh;
+}
+
+.navegacao {
+    background-color: #691110;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 90px;
+    width: 25vw;
+    text-align: center;
+    margin: 10px;
+}
+
+.foto_perfil {
+    border-radius: 50%;
+    width: 20vw;
+    border: 8px solid #080705d3;
+}
+
+.menu {
+    padding: 20px;
+    font-size: 2.2vw;
+}
+
+.menu a {
+    display: block;
+    color: whitesmoke;
+    text-decoration: none; 
+    padding: 15px;
+}
+
+.menu a:hover{
+    color: black;
+}
+
+.container {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    width: 70%;
+    color: whitesmoke;
+    background-color: black;
+    opacity: 88%;
+    margin: 10px;
+}
+
+.nome {
+    padding-top: 180px;
+    padding-left: 90px;
+    font-size: 50px;
+    text-decoration: underline;
+    text-decoration-color: #ce352a;   
+}
+
+.sobrenome {
+    color: #ce352a;
+}
+
+.endereco {
+    padding-left: 90px;
+}
+
+.email {
+    color: #ce352a;
+}
+
+.email:hover {
+    color: #691110;
+}
+
+.frase {
+    text-align: justify;
+    padding-left: 90px;
+    padding-top: 50px;
+    padding-right: 50px;
+}
+
+.redes {
+    padding-left: 90px;
+    padding-top: 20px;
+}
+
+.icone {
+    padding: 50px;
+}
+
+.icone:hover {
+    scale: 1.2;
+    transition: .5s;
+}
+
+.conhecimentos {
+    margin-top: 60px;
+}
+
+li {
+    padding: 25px;
+    list-style-type: disc;
+    margin-left: 30px;
+    font-size: large;
+}
+
+.decoracao img{
+    border-radius: 5%;
+    border: 6px solid;
+    border-color: #ce352a;
+    width: 16vw;
+    height: 16vh;
+}
+
+.juri {
+    position: fixed;
+    left: 64vw;
+    top: 10vh;
+}
+
+.programa {
+    position: fixed;
+    left: 50vw;
+    top: 20vh;
+}
+
+.justica {
+    position: fixed;
+    left: 50vw;
+    top: 50vh;
+}
+
+.web {
+    position: fixed;
+    left: 64vw;
+    top: 60vh;
+}
+
+.objetivos {
+    margin-top: 30vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+h2 {
+    text-align: justify;
+    padding: 10vh;
+}
+
+h3 {
+    text-align: right;
+    color: #ce352a;
+    text-decoration: solid;
+    text-decoration: underline;
+    font-size: larger;
+}
+
